@@ -1,0 +1,48 @@
+@import '~@/assets/fonts/index.less';
+@import '~@/themes/styles/index.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--vb-color);
+  background-color: var(--vb-body-bg);
+  font-family: 'DM Sans', 'Inter', sans-serif;
+}
+
+input{
+  box-sizing: border-box;
+}
+input::placeholder {
+  color: var(--vb-gray-400) !important;
+}
+
+svg,
+img {
+  vertical-align: middle;
+}
+
+table .MuiTableCell-root {
+  font-family: 'DM Sans';
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.isdark {
+  display: var(--dark);
+}
+
+.islight {
+  display: var(--light);
+}
